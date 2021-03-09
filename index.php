@@ -35,7 +35,7 @@
                                         <li> <a href="about.html">About</a> </li>
                                         <li><a href="brand.html">Brand</a></li>
                                         <li><a href="special.html">Specials</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="contact.php">Contact Us</a></li>
                                         <li class="last">
                                             <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
                                         </li>
