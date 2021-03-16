@@ -5,9 +5,10 @@
    <!-- body -->
    <body class="main-layout special-page">
       <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
+      <?php
+      // Some includes for loader(Kristoffer)
+        include_once("includes/loader.php");
+      ?>
       <!-- end loader -->
       <!-- header -->
       <header>
