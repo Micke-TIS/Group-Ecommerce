@@ -123,10 +123,10 @@
         </div>
     </section>
 
-    <?php
-    // Some includes for about (Henrik)
-      include_once("includes/about.php");
-    ?>
+<?php
+  // Some includes for about (Henrik)
+  include_once("includes/about.php");
+?>
 
     <!-- brand -->
     <div class="brand">
