@@ -6,9 +6,10 @@
 
 <body class="main-layout">
     <!-- loader  -->
-    <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
+    <?php
+    // Some includes for loader(Kristoffer)
+      include_once("includes/loader.php");
+    ?>
     <!-- end loader -->
     <!-- header -->
     <header>
@@ -159,7 +160,7 @@
     // Some includes for footer (Juliet)
       include_once("includes/footer.php");
     ?>
-    
+
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
