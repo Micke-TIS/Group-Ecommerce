@@ -11,6 +11,8 @@
       include_once("includes/loader.php");
     ?>
     <!-- end loader -->
+
+//MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
     <!-- header -->
     <header>
         <!-- header inner -->
@@ -160,7 +162,7 @@
     // Some includes for footer (Juliet)
       include_once("includes/footer.php");
     ?>
-
+//NI KAN MED FÖRDEL ÄVEN HA JAVASCRIPT I FOOTER FÖR DYNAMISK!! [TEACHERS COMMENT]
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

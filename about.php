@@ -65,7 +65,7 @@
     </div>
     </div>
     <!-- end about -->
-
+//FOOTER ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
     <!-- footer -->
     <footer>
         <div id="contact" class="footer">

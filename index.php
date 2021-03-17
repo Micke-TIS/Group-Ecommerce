@@ -294,7 +294,7 @@
         </div>
     </div>
     <!-- end contact -->
-
+//FOOTER ÄR INTE DYNAMISK HÄR, NI KAN ÄVEN HA JAVASCRIPT DYNAMISK!! [TEACHERS COMMENT]
     <!-- footer -->
     <footer>
         <div id="contact" class="footer">
