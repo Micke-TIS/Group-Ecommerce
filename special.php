@@ -58,7 +58,15 @@
       </section>
 
 
+<<<<<<< HEAD
       <?php
       // Some includes for footer (Juliet)
         include_once("includes/footer.php");
       ?>
+=======
+<!-- Section end -->
+<?php
+  // Some includes for footer (Juliet)
+    include_once("includes/footer.php");
+?>
+>>>>>>> bec8d6a3ffcaf9f50cf33a28c86a3d693d05d56b
