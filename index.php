@@ -17,7 +17,7 @@
       include_once("includes/menu.php");
     ?>
 
-
+ 
 
 
     <section class="slider_section">

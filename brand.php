@@ -12,7 +12,7 @@
     ?>
     <!-- end loader -->
 
-//MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
+//MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT] 
     <!-- header -->
     <header>
         <!-- header inner -->
