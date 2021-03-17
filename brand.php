@@ -14,6 +14,11 @@
 
 
 //MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
+
+<?php
+// Some includes for loader(Aylin)
+  include_once("includes/menu.php");
+?>
     <!-- header -->
     <header>
         <!-- header inner -->
