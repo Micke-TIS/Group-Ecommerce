@@ -1,3 +1,15 @@
+<div class="brand_color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Our Brand</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- brand -->
 <div class="brand">
     <div class="container">
