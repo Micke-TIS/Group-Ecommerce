@@ -10,17 +10,6 @@
         include_once("includes/loader.php");
       ?>
       <!-- end loader -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-  //MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-=======
->>>>>>> 7a75f2a8aaa497be4aee57b7e156c361e8c01673
-=======
->>>>>>> 1fd61e66ed3d2ca1567b8f311ff33cc8a674846e
 
   <!-- Menu -->
   <?php
@@ -28,14 +17,47 @@
     include_once("includes/menu.php");
   ?>
   <!-- Menu end -->
+      <section class="slider_section">
+         <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="first-slide" src="images/banner.jpg" alt="First slide">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <span>All New Phones </span>
+                        <h1>up to 25% Flat Sale</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content
+                           <br> of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+                        <a class="buynow" href="#">Buy Now</a>
 
-<!-- Section -->
-<?php
-// Some includes for section(Henrik)
-  include_once("includes/section_special.php");
-?>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img class="second-slide" src="images/banner1.png" alt="Second slide">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <span>All New Phones </span>
+                        <h1>up to 50% Flat Sale</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content
+                           <br> of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+                        <a class="buynow" href="#">Buy Now</a>
 
-<!-- Section end -->
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class='fa fa-angle-left'></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class='fa fa-angle-right'></i>
+            </a>
+         </div>
+      </section>
+
+
       <?php
       // Some includes for footer (Juliet)
         include_once("includes/footer.php");
