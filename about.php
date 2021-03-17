@@ -34,7 +34,7 @@
     </div>
 
     <?php
-    // Some includes for header (oliwer)
+    // Some includes for about (oliwer)
       include_once("includes/about.php");
     ?>
 
