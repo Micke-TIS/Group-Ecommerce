@@ -14,7 +14,7 @@
 
 
     <?php
-    // Some includes for header (Aylin)
+    // Some includes for menu(Aylin)
       include_once("includes/menu.php");
     ?>
 

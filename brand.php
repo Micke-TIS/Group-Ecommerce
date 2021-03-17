@@ -15,7 +15,7 @@
 
 
 <?php
-// Some includes for loader(Aylin)
+// Some includes for MENU(Aylin)
   include_once("includes/menu.php");
 ?>
 

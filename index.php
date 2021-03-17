@@ -5,7 +5,7 @@
 <!-- body -->
 
 <?php
-// Some includes for header (Alyin)
+// Some includes for menu(Alyin)
   include_once("includes/menu.php");
 ?>
 
@@ -19,7 +19,7 @@
 
 
 
-  
+
     <section class="slider_section">
         <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
             <div class="carousel-inner">
