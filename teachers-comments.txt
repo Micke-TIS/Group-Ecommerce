@@ -4,4 +4,4 @@ På andra ställen såg jag att till exempel contact inte var helt dynamisk.
 Försök hitta fler element ni kan göra dynamiska, även omd et bara skulle varit på 1st sida.
 
 Till exempel: Att ni gör själva kontaktformuläret dynamiskt genom att ladda in det från en unik fil
-(Fråga mig så ska jag gå igenom det med er.). 
+(Fråga mig så ska jag gå igenom det med er.).
