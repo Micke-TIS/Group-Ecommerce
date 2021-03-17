@@ -12,6 +12,7 @@
     ?>
     <!-- end loader -->
 
+
 //MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
     <!-- header -->
     <header>

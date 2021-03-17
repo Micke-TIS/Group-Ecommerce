@@ -19,6 +19,7 @@
 =======
 >>>>>>> 7a75f2a8aaa497be4aee57b7e156c361e8c01673
 
+
   <!-- Menu -->
   <?php
   // Some includes for menu(Henrik)
