@@ -6,8 +6,10 @@ function OpenCon()
  $dbuser = "root";
  $dbpass = "";
  $db = "webbservone";
- $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
-}
+ $conn=mysqli_connect($servername,$username,$password,"$dbname");
+ if(!$conn){
+    die('Could not Connect My Sql:' .mysql_error());
+ }
 ?>
 
 <?php
@@ -20,5 +22,4 @@ $menu_specials = $row['menu_specials'];
 $menu_contact = $row['menu_contact'];
 $title_about = $row['title_about'];
 }
-
 ?>
