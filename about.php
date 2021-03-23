@@ -1,6 +1,7 @@
 <?php
 // Some includes for header (Kristoffer)
   include_once("includes/header.php");
+  include_once("includes/config.php");
 ?>
 <!-- body -->
 
@@ -26,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>About</h2>
+                        <h2><?php echo $title_about; ?></h2>
                     </div>
                 </div>
             </div>
