@@ -1,6 +1,7 @@
 <?php
 // Some includes for header (Kristoffer)
   include_once("includes/header.php");
+  include_once("includes/config.php");
 ?>
 <!-- body -->
 
