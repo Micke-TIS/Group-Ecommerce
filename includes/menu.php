@@ -1,6 +1,11 @@
+<?php
+// Some includes for header (Kristoffer)
+  include_once("includes/config.php");
+?>
+
 <!-- header -->
 <header>
-  
+
     <!-- header inner -->
     <div class="header">
 
