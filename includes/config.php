@@ -10,7 +10,6 @@ function OpenCon()
 
 ?>
 
-
 <?php
 $query = mysqli_query($conn, "SELECT * FROM tbl_articles");
 while($row = mysqli_fetch_assoc($query))
