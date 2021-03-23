@@ -26,8 +26,6 @@ $menu_contact = $row['menu_contact'];
 <?php
 
 
-
->>>>>>> d15afc318b0e37d07b6401f14f28d52a19c4fdbd
 $query = mysqli_query($conn, "SELECT * FROM tbl_articles");
 while($row = mysqli_fetch_assoc($query))
 {
