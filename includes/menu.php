@@ -1,5 +1,11 @@
+<?php
+// Some includes for header (Kristoffer)
+  include_once("includes/config.php");
+?>
+
 <!-- header -->
 <header>
+
     <!-- header inner -->
     <div class="header">
 
@@ -20,10 +26,10 @@
                             <nav class="main-menu">
                                 <ul class="menu-area-main">
                                     <li class="active"> <a href="index.html">Home</a> </li>
-                                    <li> <a href="about.html">About</a> </li>
-                                    <li><a href="brand.html">Brand</a></li>
-                                    <li><a href="special.html">Specials</a></li>
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li> <a href="about.html"><?php echo $menu_about; ?></a> </li>
+                                    <li><a href="brand.html"><?php echo $menu_brand; ?>;</a></li>
+                                    <li><a href="special.html"><?php echo $menu_specials; ?></a></li>
+                                    <li><a href="contact.php"><?php echo $menu_brand; ?></a></li>
                                     <li class="last">
                                         <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
                                     </li>
