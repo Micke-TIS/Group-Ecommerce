@@ -13,8 +13,6 @@ function OpenCon()
 $query = mysqli_query($conn, "SELECT * FROM tbl_articles");
 while($row = mysqli_fetch_assoc($query))
 {
-
   $title_about = $row['title_about'];
-  $content = $row['content'];
 }
  ?>
