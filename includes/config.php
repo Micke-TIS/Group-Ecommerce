@@ -7,7 +7,7 @@ function OpenCon()
  $dbpass = "";
  $db = "webbservone";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
-<<<<<<< HEAD
+
 ?>
 
 <?php
@@ -20,12 +20,11 @@ $menu_specials = $row['menu_specials'];
 $menu_contact = $row['menu_contact'];
 }
 ?>
-<<<<<<< HEAD
+
 
 
 <?php
-=======
-=======
+
 
 
 >>>>>>> d15afc318b0e37d07b6401f14f28d52a19c4fdbd
@@ -37,4 +36,3 @@ while($row = mysqli_fetch_assoc($query))
   $content = $row['content'];
 }
  ?>
->>>>>>> 47ef5b0244b641efa8911056e894639c48d04c7a
