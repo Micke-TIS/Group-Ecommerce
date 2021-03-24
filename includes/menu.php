@@ -26,11 +26,11 @@
                             <nav class="main-menu">
                                 <ul class="menu-area-main">
                                   <!--Jag ändrade alla.html till .php. -->
-                                    <li class="active"> <a href="index.php">Home</a> </li>
-                                    <li> <a href="about.php"><?php echo $menu_about; ?></a> </li>
-                                    <li><a href="brand.php"><?php echo $menu_brand; ?></a></li>
-                                    <li><a href="special.php"><?php echo $menu_specials; ?></a></li>
-                                    <li><a href="contact.php"><?php echo $menu_brand; ?></a></li>
+                                    <li class="active"> <a href="./">Home</a> </li>
+                                    <li> <a href="./about"><?php echo $menu_about; ?></a> </li>
+                                    <li><a href="./brand"><?php echo $menu_brand; ?></a></li>
+                                    <li><a href="./special"><?php echo $menu_specials; ?></a></li>
+                                    <li><a href="./contact"><?php echo $menu_brand; ?></a></li>
                                     <li class="last">
                                         <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
                                     </li>
