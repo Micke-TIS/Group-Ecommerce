@@ -10,14 +10,12 @@
         include_once("includes/loader.php");
       ?>
       <!-- end loader -->
-<<<<<<< HEAD
-  //MENU ÄR INTE DYNAMISK HÄR!! [TEACHERS COMMENT]
+
       <!-- header -->
       <header>
          <!-- header inner -->
          <div class="header">
-=======
->>>>>>> 7a75f2a8aaa497be4aee57b7e156c361e8c01673
+
 
 
   <!-- Menu -->
