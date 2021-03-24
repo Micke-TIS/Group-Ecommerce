@@ -26,7 +26,7 @@
                             <nav class="main-menu">
                                 <ul class="menu-area-main">
                                   <!--Jag ändrade alla.html till .php. -->
-                                    <li class="active"> <a href="index.html">Home</a> </li>
+                                    <li class="active"> <a href="index.php">Home</a> </li>
                                     <li> <a href="about.php"><?php echo $menu_about; ?></a> </li>
                                     <li><a href="brand.php"><?php echo $menu_brand; ?></a></li>
                                     <li><a href="special.php"><?php echo $menu_specials; ?></a></li>
