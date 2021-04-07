@@ -18,6 +18,14 @@ try {
   throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
 
+$pdo->query("CREATE TABLE IF NOT EXISTS `tbl_products` (
+  `product_id` INT AUTO_INCREMENT NOT NULL,
+  `name` varchar(150) NOT NULL,
+  `stars` int,
+  `price` decimal,
+  PRIMARY KEY (`product_id`)) 
+  CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci")->execute();
+
 //Select specific columns from DB
 $stmt = $pdo->query('SELECT * FROM tbl_articles LIMIT 1');
 while ($row = $stmt->fetch())
