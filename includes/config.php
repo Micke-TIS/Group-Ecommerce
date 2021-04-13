@@ -23,7 +23,7 @@ $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_products` (
   `name` varchar(150) NOT NULL,
   `stars` int,
   `price` decimal,
-  PRIMARY KEY (`product_id`)) 
+  PRIMARY KEY (`product_id`))
   CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci")->execute();
 
 $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_articles` (
@@ -33,7 +33,7 @@ $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_articles` (
   `menu_specials` varchar(150) NOT NULL,
   `menu_contact` varchar(150) NOT NULL,
   `title_about` varchar(150) NOT NULL,
-  PRIMARY KEY (`id`)) 
+  PRIMARY KEY (`id`))
   CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci")->execute();
 
 //Select specific columns from DB
@@ -45,6 +45,15 @@ while ($row = $stmt->fetch())
   $menu_specials = $row['menu_specials'];
   $menu_contact = $row['menu_contact'];
   $title_about = $row['title_about'];
+}
+
+$stmt = $pdo->query('SELECT * FROM tbl_carousel LIMIT 1');
+while ($row = $stmt->fetch())
+{
+  $subheading = $row['subheading'];
+  $heading = $row['heading'];
+  $content = $row['content'];
+  $button = $row['button'];
 }
 
 ?>
