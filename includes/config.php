@@ -56,4 +56,9 @@ while ($row = $stmt->fetch())
   $button = $row['button'];
 }
 
+{
+  $about_us = $row['about_us'];
+  $about_mobile = $row['about_mobile'];
+  $about_text = $row['about_text'];
+}
 ?>

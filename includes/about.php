@@ -9,9 +9,9 @@
             </div>
             <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
                 <div class="about_box">
-                    <h3>About Us</h3>
-                    <span>Our Mobile Shop</span>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of It is a long established fact that a reader will be distracted by the </p>
+                    <h3><?php echo $about_us; ?></h3>
+                    <span><?php echo $about_mobile; ?></span>
+                    <p><?php echo $about_text; ?> </p>
 
                 </div>
 
