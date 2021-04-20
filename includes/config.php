@@ -34,6 +34,7 @@ while ($row = $stmt->fetch())
   $menu_brand = $row['menu_brand'];
   $menu_specials = $row['menu_specials'];
   $menu_contact = $row['menu_contact'];
+  $menu_Telefon = $row['menu_telefon'];
   $title_about = $row['title_about'];
 }
 
