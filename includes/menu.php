@@ -31,6 +31,7 @@
                                     <li><a href="./brand"><?php echo $menu_brand; ?></a></li>
                                     <li><a href="./special"><?php echo $menu_specials; ?></a></li>
                                     <li><a href="./contact"><?php echo $menu_brand; ?></a></li>
+                                    <li><a href="./menu_telefon"><?php echo $menu_telefon; ?></a></li>
                                     <li class="last">
                                         <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
                                     </li>
