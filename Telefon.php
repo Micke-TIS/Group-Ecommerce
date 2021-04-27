@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2><?php echo $title_about; ?></h2>
+                        <h2><?php echo $menu_telefon; ?></h2>
                     </div>
                 </div>
             </div>
