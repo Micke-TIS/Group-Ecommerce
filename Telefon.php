@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <!-- about -->
+    <!-- telefon fakta -->
     <div class="about">
         <div class="container">
             <div class="row">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
                     <div class="about_box">
-                        <h3>Intoducing TIS Phone 18</h3>
+                        <h3>TIS Phone 18</h3>
                         <span>Mycket mer än mycket snabbare.</span>
                         <p>
 5G blir proffs. A14 Bionic dundrar förbi alla andra smartphone‑chip. Proffskamerasystemet tar fotogra­fering i svagt ljus till nästa nivå – klivet är ännu större för iPhone 12 Pro Max. Och Ceramic Shield ger fyra gånger bättre skydd om du tappar din iPhone i marken. Låt oss ta en närmare titt på vad den kan göra.</p>
@@ -56,7 +56,7 @@
         </div>
     </div>
     </div>
-    <!-- end about -->
+    <!-- end telefon fakta -->
 
     ?>
 
