@@ -31,6 +31,7 @@
                   <img class="first-slide" src="images/banner.jpg" alt="First slide">
                   <div class="container">
                      <div class="carousel-caption relative">
+                       <!-- Kod ifrån config.php, koppling till databasen (dynamisk carousel) gjord av Oliwer -->
                         <span><?php echo $subheading; ?></span>
                         <h1><?php echo $heading; ?></h1>
                         <p><?php echo $content; ?></p>
@@ -43,6 +44,7 @@
                   <img class="second-slide" src="images/banner1.png" alt="Second slide">
                   <div class="container">
                      <div class="carousel-caption relative">
+                       <!-- Kod ifrån config.php, koppling till databasen (dynamisk carousel) gjord av Oliwer -->
                         <span><?php echo $subheading; ?> </span>
                         <h1><?php echo $heading; ?></h1>
                         <p><?php echo $content; ?></p>

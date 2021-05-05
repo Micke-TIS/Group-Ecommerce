@@ -45,6 +45,7 @@ while ($row = $stmt->fetch())
 }
 
 {
+  //carousel kopplad till databasen gjord av Oliwer
   $subheading = $row['subheading'];
   $heading = $heading['heading'];
   $content = $content['content'];
