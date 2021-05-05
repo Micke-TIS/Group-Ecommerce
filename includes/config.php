@@ -30,6 +30,7 @@ $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_products` (
 $stmt = $pdo->query('SELECT * FROM tbl_articles LIMIT 1');
 while ($row = $stmt->fetch())
 {
+  //Meny kopplad till databasen gjord av Oliwer
   $menu_about = $row['menu_about'];
   $menu_brand = $row['menu_brand'];
   $menu_specials = $row['menu_specials'];
@@ -41,5 +42,12 @@ while ($row = $stmt->fetch())
 {
   $contact_button = $row['contact_button'];
   $contact_b = $contact['contact_contact'];
+}
+
+{
+  $subheading = $row['subheading'];
+  $heading = $heading['heading'];
+  $content = $content['content'];
+  $button = $button['button'];
 }
 ?>

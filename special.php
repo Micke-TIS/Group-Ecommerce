@@ -31,11 +31,10 @@
                   <img class="first-slide" src="images/banner.jpg" alt="First slide">
                   <div class="container">
                      <div class="carousel-caption relative">
-                        <span>All New Phones </span>
-                        <h1>up to 25% Flat Sale</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content
-                           <br> of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
-                        <a class="buynow" href="#">Buy Now</a>
+                        <span><?php echo $subheading; ?></span>
+                        <h1><?php echo $heading; ?></h1>
+                        <p><?php echo $content; ?></p>
+                        <a class="buynow" href="#"><?php echo $button; ?></a>
 
                      </div>
                   </div>
@@ -44,11 +43,10 @@
                   <img class="second-slide" src="images/banner1.png" alt="Second slide">
                   <div class="container">
                      <div class="carousel-caption relative">
-                        <span>All New Phones </span>
-                        <h1>up to 50% Flat Sale</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content
-                           <br> of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
-                        <a class="buynow" href="#">Buy Now</a>
+                        <span><?php echo $subheading; ?> </span>
+                        <h1><?php echo $heading; ?></h1>
+                        <p><?php echo $content; ?></p>
+                        <a class="buynow" href="#"><?php echo $button; ?></a>
 
                      </div>
                   </div>

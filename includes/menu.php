@@ -27,6 +27,7 @@
                                 <ul class="menu-area-main">
                                   <!--Jag ändrade alla.html till .php. -->
                                     <li class="active"> <a href="./">Home</a> </li>
+                                    <!-- Kod ifrån config.php, koppling till databasen (dynamisk meny) gjord av Oliwer -->
                                     <li> <a href="./about"><?php echo $menu_about; ?></a> </li>
                                     <li><a href="./brand"><?php echo $menu_brand; ?></a></li>
                                     <li><a href="./special"><?php echo $menu_specials; ?></a></li>
