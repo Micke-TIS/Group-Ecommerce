@@ -21,3 +21,5 @@
 </div>
 </div>
 <!-- end telefon fakta -->
+<!-- Kristoffer-->
+<!-- Här kopierade jag bara texten ifrån about .php och fixa den lite så att det passar den nya hemsidan den har rubrik och en lsogan med sedan lite mindre text-->
