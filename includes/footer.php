@@ -25,6 +25,7 @@
                                 <li> <a href="#">Brand </a></li>
                                 <li> <a href="#">Specials  </a></li>
                                 <li> <a href="#"> Contact us</a></li>
+                                <li> <a href="#"> Telefon</a></li>
                             </ul>
                         </div>
                     </div>
