@@ -1,3 +1,4 @@
+# Deny anyone's access to the "/includes" directory.
 <IfModule mod_rewrite.c>
 	Deny from all
 	Require local

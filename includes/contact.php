@@ -19,7 +19,7 @@
                             <textarea class="textarea" placeholder="Message"></textarea>
                         </div>
                         <div class=" col-md-12">
-                            <button class="send">Send</button>
+                            <button class="send"><?php echo $contact_button; ?></button>
                         </div>
                     </div>
                 </form>

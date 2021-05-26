@@ -6,6 +6,7 @@ $username='root';
 $password='';
 $dbname = "webbservone";
 
+// PDO Options, how errors are handled etc.   
 $options = [
   PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
   PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -13,11 +14,13 @@ $options = [
 ];
 
 try {
+  // Setting up the PDO object.
   $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password, $options);
 } catch (\PDOException $e) {
   throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
 
+// Check if tbl_products table doesn't exist, if not we create it.
 $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_products` (
   `product_id` INT AUTO_INCREMENT NOT NULL,
   `name` varchar(150) NOT NULL,
@@ -26,39 +29,35 @@ $pdo->query("CREATE TABLE IF NOT EXISTS `tbl_products` (
   PRIMARY KEY (`product_id`))
   CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci")->execute();
 
-$pdo->query("CREATE TABLE IF NOT EXISTS `tbl_articles` (
-  `id` INT AUTO_INCREMENT NOT NULL,
-  `menu_about` varchar(150) NOT NULL,
-  `menu_brand` varchar(150) NOT NULL,
-  `menu_specials` varchar(150) NOT NULL,
-  `menu_contact` varchar(150) NOT NULL,
-  `title_about` varchar(150) NOT NULL,
-  PRIMARY KEY (`id`))
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci")->execute();
-
 //Select specific columns from DB
-$stmt = $pdo->query('SELECT * FROM tbl_articles LIMIT 1');
+$stmt = $pdo->query('SELECT menu_about, menu_brand, menu_specials, menu_contact, menu_telefon, title_about FROM tbl_articles LIMIT 1'); // Select the columns we need(a bit faster)
 while ($row = $stmt->fetch())
 {
+  //Meny kopplad till databasen gjord av Oliwer
   $menu_about = $row['menu_about'];
   $menu_brand = $row['menu_brand'];
   $menu_specials = $row['menu_specials'];
   $menu_contact = $row['menu_contact'];
+  $menu_telefon = $row['menu_telefon'];
   $title_about = $row['title_about'];
 }
 
-$stmt = $pdo->query('SELECT * FROM tbl_carousel LIMIT 1');
-while ($row = $stmt->fetch())
 {
-  $subheading = $row['subheading'];
-  $heading = $row['heading'];
-  $content = $row['content'];
-  $button = $row['button'];
+  $contact_button = $row['contact_button'];
+  $contact_b = $contact['contact_contact'];
 }
 
 {
+<<<<<<< HEAD
   $about_us = $row['about_us'];
   $about_mobile = $row['about_mobile'];
   $about_text = $row['about_text'];
+=======
+  //carousel kopplad till databasen gjord av Oliwer
+  $subheading = $row['subheading'];
+  $heading = $heading['heading'];
+  $content = $content['content'];
+  $button = $button['button'];
+>>>>>>> 7e10571ca97fb03b9a2b1511fc700ecef4febd40
 }
 ?>

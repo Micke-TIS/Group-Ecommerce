@@ -7,9 +7,9 @@
                     <div class="footer-box">
                         <div class="headinga">
                             <h3>Address</h3>
-                            <span>Healing Center, 176 W Streetname,New York, NY 10014, US</span>
-                            <p>(+71) 8522369417
-                                <br>demo@gmail.com</p>
+                            <span>Malmborgsgatan 4, 211 38 Malmö</span>
+                            <p>010-331 05 00
+                                <br> info@thorengruppen.se</p>
                         </div>
                         <ul class="location_icon">
                             <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -25,6 +25,7 @@
                                 <li> <a href="#">Brand </a></li>
                                 <li> <a href="#">Specials  </a></li>
                                 <li> <a href="#"> Contact us</a></li>
+                                <li> <a href="#"> Telefon</a></li>
                             </ul>
                         </div>
                     </div>

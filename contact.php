@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Contact Us</h2>
+                        <h2><?php echo $contact_contact; ?></h2>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,8 @@
+# Enable rewrite engine so that we can rewrite how the request is being handeled
 RewriteEngine on 
+# Check that the request is not a directory
 RewriteCond %{REQUEST_FILENAME} !-d
+# Check that we don't have .php
 RewriteCond %{REQUEST_FILENAME}\.php -f
+# Rewrite to {request}.php
 RewriteRule ^(.*)$ $1.php [NC,L]
