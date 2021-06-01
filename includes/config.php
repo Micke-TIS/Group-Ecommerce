@@ -52,7 +52,7 @@ while ($row = $stmt->fetch())
   $about_us = $row['about_us'];
   $about_mobile = $row['about_mobile'];
   $about_text = $row['about_text'];
-=======
+//=======
   //carousel kopplad till databasen gjord av Oliwer
   $subheading = $row['subheading'];
   $heading = $heading['heading'];
