@@ -6,7 +6,7 @@ $username='root';
 $password='';
 $dbname = "webbservone";
 
-// PDO Options, how errors are handled etc.   
+// PDO Options, how errors are handled etc.
 $options = [
   PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
   PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -48,7 +48,7 @@ while ($row = $stmt->fetch())
 }
 
 {
-<<<<<<< HEAD
+//<<<<<<< HEAD
   $about_us = $row['about_us'];
   $about_mobile = $row['about_mobile'];
   $about_text = $row['about_text'];
