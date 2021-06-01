@@ -58,6 +58,6 @@ while ($row = $stmt->fetch())
   $heading = $heading['heading'];
   $content = $content['content'];
   $button = $button['button'];
->>>>>>> 7e10571ca97fb03b9a2b1511fc700ecef4febd40
+//>>>>>>> 7e10571ca97fb03b9a2b1511fc700ecef4febd40
 }
 ?>
