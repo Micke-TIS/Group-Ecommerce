@@ -10,12 +10,7 @@
 ?>
 
 <body class="main-layout ">
-    <!-- loader  -->
-    <?php
-    // Some includes for loader(Kristoffer)
-      include_once("includes/loader.php");
-    ?>
-    <!-- end loader -->
+
 
 
 

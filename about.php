@@ -8,10 +8,7 @@
 
 <body class="main-layout">
 
-  <?php
-  // Some includes for loader(Kristoffer)
-    include_once("includes/loader.php");
-  ?>
+
 
 
 

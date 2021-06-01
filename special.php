@@ -4,12 +4,7 @@
 ?>
    <!-- body -->
    <body class="main-layout special-page">
-      <!-- loader  -->
-      <?php
-      // Some includes for loader(Kristoffer)
-        include_once("includes/loader.php");
-      ?>
-      <!-- end loader -->
+
 
       <!-- header -->
       <header>
